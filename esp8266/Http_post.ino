@@ -1,3 +1,11 @@
+/*
+* Codigo basico para envio de http-post com esp8266
+* Basic code to send http-post with esp8266
+*
+* Escrito por / Write by - Paulo Eduardo
+* Colaborador / colaborator - Manoel Santos
+*/
+
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 
