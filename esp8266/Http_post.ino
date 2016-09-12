@@ -42,7 +42,7 @@ void setup() {
 void loop() {
   
   HTTPClient http;
-  http.begin("http://neoprime.com.br/api.php");
+  http.begin("http://192.168.1.1");
   http.addHeader("Content-Type", "application/x-www-form-urlencoded");
   http.POST("title=foo&body=bar&userId=1");
   http.writeToStream(&Serial);
