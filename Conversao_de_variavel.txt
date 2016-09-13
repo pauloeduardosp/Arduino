@@ -1,0 +1,14 @@
+Conversão STRING
+
+value = String(WiFi.SSID());
+value = WiFi.localIP().toString();
+
+
+Conversão INT
+
+luz1 = server.arg("POST_luz1").toInt();
+
+
+Conversao to Array
+
+value.toCharArray(wifi.ssid, 30);
