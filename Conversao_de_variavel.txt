@@ -12,3 +12,8 @@ luz1 = server.arg("POST_luz1").toInt();
 Conversao to Array
 
 value.toCharArray(wifi.ssid, 30);
+
+
+
+coletar mac do esp8266
+http://www.esp8266.com/viewtopic.php?f=29&t=3587
