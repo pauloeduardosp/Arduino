@@ -17,3 +17,10 @@ value.toCharArray(wifi.ssid, 30);
 
 coletar mac do esp8266
 http://www.esp8266.com/viewtopic.php?f=29&t=3587
+
+
+
+Prinrf de boolean
+
+boolean x = true;
+Serial.printf("%s\n", x?"true":"false");
