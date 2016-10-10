@@ -10,8 +10,8 @@
 
 #include <ESP8266WiFi.h>
 
-const char* ssid     = "anonymous2";
-const char* password = "manuela.";
+const char* ssid     = "ssid";
+const char* password = "pass";
 
 
 
@@ -37,20 +37,13 @@ void setup() {
 
 
     pinMode(2, OUTPUT);
-    pinMode(1, OUTPUT);
-
     pinMode(0, OUTPUT);
-    pinMode(3, OUTPUT);
+
 }
 
 
 
 void loop() {
-
-if(digitalRead(3)){
-  digitalWrite(1, !digitalRead(1));
-  digitalWrite(2, !digitalRead(2));
-}
 
 
 //if(digitalRead(3)){
