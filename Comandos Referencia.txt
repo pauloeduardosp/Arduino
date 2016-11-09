@@ -24,3 +24,18 @@ Prinrf de boolean
 
 boolean x = true;
 Serial.printf("%s\n", x?"true":"false");
+
+
+#############################################################################
+
+MQTT
+
+Protocolo MQTT
+http://blog.filipeflop.com/wireless/controle-monitoramento-iot-nodemcu-e-mqtt.html
+ 
+vc pode utilizar este cliente
+http://mqttfx.jfx4ee.org/
+
+da uma lida tambem neste tutorial:
+http://www.hivemq.com/blog/how-to-get-started-with-mqtt
+
