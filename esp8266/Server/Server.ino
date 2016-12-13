@@ -144,11 +144,11 @@ int delayversao = 0;            // loop
 int clientPinLuz[30];            //aba webSocket
 boolean imgStatusClient[30];     //aba webSocket
 
-//String imgLedOn = "http://200.148.220.249/dashboard/Lightbulb-On.png";   // endereço da img lampada acessa
-//String imgLedOff = "http://200.148.220.249/dashboard/Lightbulb-Off.png"; // endereço da img lampada apagada
+String imgLedOn = "http://200.148.220.249/dashboard/Lightbulb-On.png";   // endereço da img lampada acessa
+String imgLedOff = "http://200.148.220.249/dashboard/Lightbulb-Off.png"; // endereço da img lampada apagada
 
-String imgLedOn = "http://192.168.240.190/dashboard/Lightbulb-On.png";   // endereço da img lampada acessa
-String imgLedOff = "http://192.168.240.190/dashboard/Lightbulb-Off.png"; // endereço da img lampada apagada
+//String imgLedOn = "http://192.168.240.190/dashboard/Lightbulb-On.png";   // endereço da img lampada acessa
+//String imgLedOff = "http://192.168.240.190/dashboard/Lightbulb-Off.png"; // endereço da img lampada apagada
 
 
 
